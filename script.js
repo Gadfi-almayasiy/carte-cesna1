@@ -23,7 +23,7 @@ fetch(`${BASE_URL}?code_membre=eq.${code}`, {
 
     const m = data[0];
 
-    document.getElementById("status").innerHTML = "✅ Membre vérifié";
+    document.getElementById("status").innerHTML = " Club Scientifique des Étudiants Nigeriens en Algérie (CSENA) ";
 
     document.getElementById("info").innerHTML = `
     <h3>${m.nom} ${m.prenom}</h3>
